@@ -1,4 +1,3 @@
-
 # CiGin
 
 ## 项目目标
@@ -22,7 +21,7 @@
         /models 业务模型代码 
         /policies
         /requests
-    /bootstrap
+    /bootstrap 启动代码
     /routes
 /pkg  外部应用程序可以使用的库代码
 /web Web 应用程序的组件:静态 Web 资产、服务器端模板和 SPAs。
