@@ -3,7 +3,10 @@
 
 ## 项目目标
 
-    * 为golang做一个落地的文件目录结构
+    * 练习golang
+        * 数据结构和算法
+        * web博客
+        * restful 风格接口训练
     
 ## 项目目录
 
@@ -16,7 +19,7 @@
             /api/controllers
             /web/controllers
             /middlewares
-        /models 业务模型代码
+        /models 业务模型代码 
         /policies
         /requests
     /bootstrap
