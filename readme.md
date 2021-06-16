@@ -1,5 +1,5 @@
 
-# go-template
+# CiGin
 
 ## 项目目标
 
