@@ -10,6 +10,7 @@ import (
 func SetupRoute() *gin.Engine {
 	router := gin.Default()
 	routes.RegisterApiRoutes(router)
+	routes.RegisterWebRoutes(router)
 
 	return router
 }

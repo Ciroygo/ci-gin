@@ -7,15 +7,15 @@ import (
 )
 
 func init() {
-	// config 注册
+	// config 初始化
 	configs.Initialize()
+	// 数据初始化
+	bootstrap.SetupDB()
 }
 
 func main() {
-	// 数据库注册
-
 	// 路由注册
 	router := bootstrap.SetupRoute()
 
-	router.Run(":80")
+	router.Run(":8091")
 }
